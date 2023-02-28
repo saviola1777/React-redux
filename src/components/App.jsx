@@ -7,7 +7,7 @@ import ContactList from 'components/ContactList/ContactList';
 import Filter from 'components/Filter/Filter';
 
 
-import { useSelector, useDispatch} from "react-redux"; // імпортуємо компонент провайдер який дає доступ до глобального стану
+import { useSelector, useDispatch} from "react-redux"; // імпортуємо компонент провайдер який дає доступ до глобального стануу
 import { addContact , deleteCantacts } from "Redux/action"
 
 const App = () => {
