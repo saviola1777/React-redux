@@ -1,10 +1,10 @@
 import { createStore } from "redux";
 import { devToolsEnhancer } from "@redux-devtools/extension";
-import reducer from "./reducer";
+import rootReducer from "./root-reducer";
 
 const enhancer = devToolsEnhancer();
 
-const store =createStore (reducer , enhancer)  // створюємо глобальне сходище яке називається сторе
+const store =createStore (rootReducer , enhancer)  // створюємо глобальне сходище яке називається сторе
 export  default store
 
 
